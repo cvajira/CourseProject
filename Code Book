@@ -1,4 +1,44 @@
-Variable names and discriptions
-|Varaible|Discription|
-|---------|-----------|
-as|as|
+Varaible Names and Discriptions:
+
+Subject: The identification number of the person. research consists of data from 30 subjects.
+
+Activity: Each person did 6 type of activities, while wearing Samsung smartphone
+  1.WALKING
+  2.WALKING_UPSTAIRS
+  3.WALKING_DOWNSTAIRS
+  4.SITTING
+  5.STANDING
+  6.LAYING
+  
+Each other varaible name can be broken in to three seperate discriptive parts. Discriptive part consist of following words.
+
+Part1: measurement
+meanof : mean value of given signal
+meanofXaxis: mean value of x-axis component of given signal( similar definition for "Y" and "Z" axis)
+stdof: standard deviation of given signal
+stdofXaxix: standard deviation of x-axis component of give signal
+meanofMagnitude: mean value of magnitude of given signals
+stdofmagnitude: standarddeviation of magnitude of given signal
+
+part2:domain
+Timedomain: timedomain signals
+Freqdomain: frequencydomain signals
+
+part3: variable 
+This part contain name of signal. 
+ [1] BodyAccelarationSignals : Accelaration due to body        
+ [2] GravityAccelarationSignals : Accelaration due to gravity     
+ [3] BodyAccelarationJerkSignals :Jerk signals due to body accelaration    
+ [4] BodyGyroscopeSignals : Body Gyroscope signals          
+ [5] BodyGyroscopeJerkSignals; Body Gyroscope signals
+ 
+ How to read varaible:
+ Example 1: "meanofXaxisTimedomainBodyAccelarationSignals" should be read as "mean value of x axis component of time domain body
+          accelaration signals"
+          
+
+ Example 2: "meanofMagnitudeofTimedomainBodyAccelarationJerkSignals" should be read as "mean value of magnitude of time domain 
+            body accelaration signals"
+
+
+
